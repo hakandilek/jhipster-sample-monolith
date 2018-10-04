@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "jhipsterSampleMonolith",
+    "packageName": "io.github.jhipster.monolith",
+    "packageFolder": "io/github/jhipster/monolith",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "cucumber",
+      "protractor"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.4.0",
+    "jwtSecretKey": "YWE1YjA0MjE2YTNlZDYzZWY2NjZlNDkwNWIwYTZkYWEzODk0Y2VlYmEyMWNjYjdhNDI3M2EzMTdkM2Y2YjliN2I2MWIyZjcxMzMyNjg3Y2EzMzUzOWQ4MTNkZTNlMjQxMWFhMjA1NTdmMTlhZDJiNjNhYTY5MGVjMzQ0ZTM5MjY="
+  },
+  "git-provider": "GitHub",
+  "git-company": "hakandilek",
+  "repository-name": "jhipster-sample-monolith"
+}
